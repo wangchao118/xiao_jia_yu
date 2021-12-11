@@ -52,6 +52,7 @@ void Car::warning()
     std::cout<<"Warning!!"<<"还剩"<<100*gas_tank/FULL_GAS<<"%"<<"油量！";
 }
 
+
 int main()
 {
     char i;
