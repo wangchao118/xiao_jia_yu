@@ -28,6 +28,11 @@ void Car::setEngine(std::string eng)
     engine = eng;
 }
 
+void Car::setwheel(unsigned int whe)
+{
+    wheel = whe;
+}
+
 void Car::filltank(float liter)     //作用域解析符
 {
     gas_tank += liter;
